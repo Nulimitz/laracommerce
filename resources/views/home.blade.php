@@ -2,9 +2,24 @@
 
 @section('content')
     <div class="container">
-        <header>
-            <h2>Bootstrap 5 Sidebar Menu - Simple</h2>
-            <p class="lead">A offcanvas "push" vertical nav menu example.</p>
+        <header class="d-flex justify-content-between">
+            <div>
+                <h2>Bootstrap 5 Sidebar Menu - Simple</h2>
+                <p class="lead">A offcanvas "push" vertical nav menu example.</p>
+            </div>
+            <div class="ml-auto">
+                <div class="dropdown">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Actions
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
         </header>
 
 
